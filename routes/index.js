@@ -1,7 +1,7 @@
 var express = require('express'),
 	fb = require('ilkkah-fb'),
 	router = express.Router(),
-	appSecret = '7cd1fd1371b8792dbdc566ee40f62919';
+	appSecret = 'ReplaceWithYourAppSecret';
 
 fb.options({ appSecret: appSecret });
 
